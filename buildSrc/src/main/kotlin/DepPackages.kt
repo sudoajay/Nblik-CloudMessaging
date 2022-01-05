@@ -26,9 +26,9 @@ fun DependencyHandler.implementAndroidX(){
     add("implementation", Dependencies.Lifecycle.lifecycleLiveData)
     add("implementation",Dependencies.Coroutine.coroutineCore)
     add("implementation",Dependencies.Coroutine.coroutineAndroid)
-    add("implementation",Dependencies.Androidx.swipeRefreshLayout)
+//    add("implementation",Dependencies.Androidx.swipeRefreshLayout)
     add("implementation", Dependencies.Androidx.ActivityKtx)
-    add("implementation", Dependencies.Androidx.FragmentKtx)
+//    add("implementation", Dependencies.Androidx.FragmentKtx)
 }
 
 fun DependencyHandler.implementDataBase(){

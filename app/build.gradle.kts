@@ -59,9 +59,7 @@ android {
 dependencies {
     implementBasicAndroid()
     implementDependencyInjection()
-//        implementAndroidX()
-//        implementDataBase()
-//        implementNetwork()
+    implementAndroidX()
     implementTest()
     implementAndroidTest()
 }
