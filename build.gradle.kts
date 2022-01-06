@@ -11,9 +11,12 @@ buildscript {
         classpath(Plugins.pluginBuildGradle)
         classpath(Plugins.pluginKotlinGradle)
         classpath(Plugins.pluginDaggerHilt)
+        classpath(Plugins.googleService)
 
     }
+
 }
+
 
 
 tasks.register("clean", Delete::class) {

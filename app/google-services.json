@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "916769449169",
+    "project_id": "nblik-cloudmessaging",
+    "storage_bucket": "nblik-cloudmessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916769449169:android:00967da00f199ffc2211f0",
+        "android_client_info": {
+          "package_name": "com.sudoajay.nblik.cloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916769449169-o5u1r9p77cr7mk4fvi7lvlf4t3o4i5at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUjMRRnIwBnLBiwWisWDAHW4xtN9YOta4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916769449169-o5u1r9p77cr7mk4fvi7lvlf4t3o4i5at.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

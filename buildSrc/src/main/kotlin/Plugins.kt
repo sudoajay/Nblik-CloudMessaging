@@ -8,6 +8,8 @@ object Plugins {
         "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.Project.kotlin_version}"
     const val  pluginDaggerHilt =
         "com.google.dagger:hilt-android-gradle-plugin:${Versions.Dependencies.Dagger_Hilt}"
+    const val googleService =
+        "com.google.gms:google-services:${Versions.Project.Google_Services}"
 
 
 

@@ -60,6 +60,7 @@ dependencies {
     implementBasicAndroid()
     implementDependencyInjection()
     implementAndroidX()
+    implementFirebaseGoogle()
     implementTest()
     implementAndroidTest()
 }

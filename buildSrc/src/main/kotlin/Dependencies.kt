@@ -34,6 +34,14 @@ class Dependencies {
         const val coroutineAndroid =
             "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.Dependencies.Coroutine}"
     }
+
+    object FireBase {
+        const val fireBaseBom = "com.google.firebase:firebase-bom:${Versions.Dependencies.FireBaseBom}"
+        const val firBaseMessaging = "com.google.firebase:firebase-messaging-ktx"
+        const val firBaseAnalytics = "com.google.firebase:firebase-analytics-ktx"
+
+    }
+
     object Storage {
         const val RoomRuntime = "androidx.room:room-runtime:${Versions.Dependencies.Room}"
         const val RoomCompiler = "androidx.room:room-compiler:${Versions.Dependencies.Room}"

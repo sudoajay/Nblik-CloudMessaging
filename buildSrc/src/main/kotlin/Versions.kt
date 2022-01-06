@@ -6,6 +6,7 @@ object Versions {
     object Project {
         const val kotlin_version = "1.5.21"
         const val Android_Gradle_Plugin_version = "7.0.4"
+        const val Google_Services = "4.3.10"
     }
     /**
      * Versions of android main library
@@ -30,6 +31,8 @@ object Versions {
         const val WebKit = "1.2.0"
         const val FragmentKTX = "1.3.6"
         const val ActivityKTX = "1.3.1"
+
+        const val FireBaseBom = "29.0.3"
 
         const val Room = "2.4.0"
         const val Paging = "3.1.0"

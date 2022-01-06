@@ -10,6 +10,7 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.lifecycleScope
+import com.sudoajay.nblik.cloudmessaging.firebase.NotificationChannels
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -25,6 +26,10 @@ open class BaseActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setSystemDefaultOn()
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            NotificationChannels.notificationOnCreate(applicationContext)
+        }
     }
 
     private fun setSystemDefaultOn() {

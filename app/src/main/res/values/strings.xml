@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Nblik Cloud Messaging</string>
+
+<!--    Notification messages-->
+    <string name="notifications_group_service">Firebase Service control</string>
+
+    <string name="firebase_channel_id">Firebase Push Notification</string>
+
 </resources>
