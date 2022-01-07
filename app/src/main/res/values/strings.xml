@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">Nblik Cloud Messaging</string>
+<!--    Main activity-->
+    <string name="generateToken_text">Generate Token</string>
+    <string name="generateTokenFailed_Text">Fetching FCM registration token failed</string>
+    <string name="token_saved_text">Generated Token Copied</string>
 
 <!--    Notification messages-->
     <string name="notifications_group_service">Firebase Service control</string>
-
     <string name="firebase_channel_id">Firebase Push Notification</string>
+    <string name="firBaseDefaultValue_text">No value pass</string>
+
 
 </resources>

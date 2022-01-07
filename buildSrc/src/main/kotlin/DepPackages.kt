@@ -34,12 +34,13 @@ fun DependencyHandler.implementAndroidX(){
 fun DependencyHandler.implementFirebaseGoogle(){
     add("implementation" ,platform(Dependencies.FireBase.fireBaseBom))
     add("implementation" ,Dependencies.FireBase.firBaseMessaging)
+    add("implementation" ,Dependencies.FireBase.firebaseInAppMessaging)
     add("implementation" ,Dependencies.FireBase.firBaseAnalytics)
 
 }
 
 fun DependencyHandler.implementDataBase(){
-    add("implementation", Dependencies.Storage.paging)
+//    add("implementation", Dependencies.Storage.paging)
     add("implementation", Dependencies.Storage.preferenceDataStore)
     add("implementation", Dependencies.Storage.protoDataStore)
     add("implementation", Dependencies.Storage.protobuf)

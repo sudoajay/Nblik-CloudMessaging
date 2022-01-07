@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--    App Theme Color-->
+
     <color name="colorPrimaryDark">#ffffff</color>
     <color name="colorPrimary">#ffffff</color>
     <color name="colorAccent">#41a9e4</color>
 
-    <color name="primaryAppColor">#376db6</color>
+    <!--Activity-->
+    <color name="mainBgColor">#59FFFFFF</color>
+    <color name="headingNormalTextColor">#353131</color>
+
 
 </resources>

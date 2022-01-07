@@ -38,6 +38,7 @@ class Dependencies {
     object FireBase {
         const val fireBaseBom = "com.google.firebase:firebase-bom:${Versions.Dependencies.FireBaseBom}"
         const val firBaseMessaging = "com.google.firebase:firebase-messaging-ktx"
+        const val firebaseInAppMessaging = "com.google.firebase:firebase-inappmessaging-display-ktx"
         const val firBaseAnalytics = "com.google.firebase:firebase-analytics-ktx"
 
     }

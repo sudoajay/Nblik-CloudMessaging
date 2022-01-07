@@ -14,19 +14,20 @@ import com.sudoajay.nblik.cloudmessaging.R
 import java.io.InputStream
 import java.net.HttpURLConnection
 import java.net.URL
+import javax.inject.Inject
 
 
-class FirebaseNotification(var context: Context) {
+class FirebaseNotification @Inject constructor(var context: Context) {
 
     private var notificationManager: NotificationManager? = null
     private var notification: Notification? = null
 
     fun notifyCompat(
-        remoteMessage: RemoteMessage.Notification?,
+        remoteMessage: RemoteMessage.Notification,
         builder: NotificationCompat.Builder
     ) { // local variable
 
-        val title = remoteMessage!!.title
+        val title = remoteMessage.title
         val notificationText = remoteMessage.body
         val imageUrl: String = remoteMessage.imageUrl.toString()
 

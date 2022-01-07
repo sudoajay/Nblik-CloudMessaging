@@ -6,4 +6,9 @@
     <color name="colorPrimary">#272727</color>
     <color name="colorAccent">#74A0EE</color>
 
+<!--Activity-->
+    <color name="mainBgColor">#121212</color>
+    <color name="headingNormalTextColor">#dae1e7</color>
+
+
 </resources>

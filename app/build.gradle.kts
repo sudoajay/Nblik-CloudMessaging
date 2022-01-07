@@ -1,3 +1,5 @@
+import com.google.protobuf.gradle.*
+
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -6,6 +8,10 @@ plugins {
     id("dagger.hilt.android.plugin")
     id("kotlin-android")
     id("kotlin-parcelize")
+//    Google services
+    id("com.google.gms.google-services")
+    //    ProtoBuf
+    id ("com.google.protobuf" ) version "0.8.18"
 
 }
 android {
@@ -61,6 +67,26 @@ dependencies {
     implementDependencyInjection()
     implementAndroidX()
     implementFirebaseGoogle()
+    implementDataBase()
     implementTest()
     implementAndroidTest()
+}
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.19.1"
+    }
+    generateProtoTasks {
+        all().forEach { task ->
+            task.plugins{
+                create("java") {
+                    option("lite")
+                }
+            }
+        }
+    }
+
+    kapt {
+        correctErrorTypes = true
+    }
+
 }
